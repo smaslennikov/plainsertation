@@ -13,7 +13,7 @@ install_dependencies_ubuntu:
 	gem install redcarpet -v 3.1.2; \
 	gem install mdpress; \
 
-install_dependencies_ubuntu:
+install_dependencies_gentoo:
 	sudo gem uninstall redcarpet; \
 	sudo gem install redcarpet -v 3.1.2; \
 	sudo gem install mdpress; \

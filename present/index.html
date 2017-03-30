@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Template presentation</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <meta name="author" content="Slava Maslennikov">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="apple-touch-icon" href="css/apple-touch-icon.png" />
+    <!-- Code Prettifier: -->
+<link href="css/highlight.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+    <link href="css/style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,300,400,800' rel='stylesheet' type='text/css'>    
+
+
+  </head>
+
+  <body>
+  <div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
+    <div id="impress">
+    <div class='step' >
+    
+<h1>Markdown Presentation template</h1>
+</div>
+      <div class='step' >
+    
+<h2>Fork the repo on github</h2>
+</div>
+      <div class='step' >
+    
+<h2>Enable GitHub pages on your fork</h2>
+</div>
+      <div class='step' >
+    
+<h2>Edit present.md to your liking</h2>
+
+<ul>
+<li>examples can be found <a href="https://GitHub.com/egonSchiele/mdpress">here</a></li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h2>Install dependencies</h2>
+
+<p>for ubuntu:</p>
+<pre><code class='prettyprint '>make install_dependencies_ubuntu
+</code></pre>
+<p>for gentoo:</p>
+<pre><code class='prettyprint '>make install_dependencies_gentoo
+</code></pre>
+<p>for OS X (untested):</p>
+<pre><code class='prettyprint '>gem install mdpress
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Build your .md file and push to your repo</h2>
+
+<ul>
+<li><code class='inline prettyprint'>make all</code> can be used to build all .md files in the repo directory</li>
+<li><code class='inline prettyprint'>make open_all</code> can be used to build all .md files <strong>and</strong> open the resulting presentations in your default browser</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h2>If enabled, Travis CI will ensure you built the most recent version before pushing</h2>
+</div>
+      <div class='step' >
+    
+<h2>You can view your newly made presentation both locally and through GitHub pages:</h2>
+
+<ul>
+<li>Locally by pointing your browser to index.html in the build directory</li>
+<li>On GitHub pages once you push to GitHub (if you forgot to build with <code class='inline prettyprint'>make all</code> first, this won&#39;t work)</li>
+</ul>
+
+      </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
+    
