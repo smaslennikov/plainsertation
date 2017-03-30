@@ -1,0 +1,9 @@
+os:
+  - linux
+install:
+  - sudo apt-get install ruby-dev
+  - gem uninstall redcarpet
+  - gem install redcarpet -v 3.1.2
+  - gem install mdpress
+script:
+  - make test
